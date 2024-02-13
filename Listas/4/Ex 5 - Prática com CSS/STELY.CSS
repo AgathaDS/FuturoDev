@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --Vermelho: #3b0057;
+    --Verde: #7310b4;
+    --branco: #faf8f8;
+  }
+
+  .titulo {
+    font-size: 3em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b0057;
+    box-sizing: border-box;
+  }
+  
+  .subtitulo {
+    font-size: 2em;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3b0057;
+    box-sizing: border-box;
+  }
+
+
+  .header {
+  display: flex; 
+  justify-content: space-around;
+  background-color: #3b0057;
+  }
+  
+  .header a {
+    color: var(--branco);
+    padding: 0 1em;
+    font-size:2em ;
+  }
+
+  .header-menu {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    background-image: url(img/pexels-element-digital-1051075.jpg);
+    background-position: center;
+    background-size: cover;
+    
+  }
+  
+  .home h2 {
+    color: var(-)b;
+  }
+
+  .img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img div {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.img img {
+    width: 100%;
+    height: auto;
+}
+
+.img p {
+    margin: 5px 0;
+}
+
+
+  .Sobre-nós {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    background-color: var(--Verde);
+    color: var(--branco);
+    font-size: 2em;
+  }
+
+  .Sobre-nós h2 {
+    font-size: 1em;
+  }
+
+  .Planos {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2em;
+  }
+
+  .Planos a p {
+    font-size: 1em;
+  }
+
+
+  table {
+   
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100vw;
+    height: 50vh;
+  }
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #ffffff;
+   color: white;
+}

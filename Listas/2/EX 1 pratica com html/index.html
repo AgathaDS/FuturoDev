@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navbar</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: Arial, sans-serif;
+            scroll-behavior: smooth;
+          }
+               
+               
+                header {
+                    background-color: #061049;
+                    color: #fff;
+                    padding: 10px 0;
+                    text-align: center;
+                   
+                }
+                
+                nav ul {
+                    list-style: none;
+                    padding: 0;
+                    margin: 0;
+                }
+                nav ul li {
+                    display: inline;
+                    margin-right: 20px;
+                }
+                nav ul li a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+                nav ul li a:hover {
+                    text-decoration: underline;
+                }
+        
+                #Eventos,
+                #Sobre,
+                #Contato {
+                    width: 100vw;
+                    height: 50vh;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    padding: 0 4em;
+                    color: rgb(0, 4, 59);
+                    font-size: 2em;
+                    
+                    
+                }
+        
+                #Eventos {
+                    background-color: rgb(255, 255, 255);
+                }
+        
+                #Sobre {
+                    background-color: rgb(148, 175, 235);
+                }
+        
+                #Contato {
+                    background-color: rgb(255, 255, 255);
+                }
+                .footer {
+                    width: 100vw;
+                    background-color: rgb(0, 4, 59);
+                    padding: 1em 4em;
+                    display: flex;
+                    color: white; 
+                }
+            </style>
+</head>
+
+<body>
+    <header>
+        <h1>Duarte events</h1>
+        <nav>
+            <ul>
+                <li><a href="#Eventos">Eventos</a></li>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Eventos">
+            <h3 class="eventos">Eventos</h3>
+            <p class="p">Festas de aniversário e casamento. Shows musicais e comemorativos.</p>
+        </section>
+
+        <section id="Sobre">
+            <h3 class="sobre">Sobre</h3>
+            <p class="p">Duarte events foi fundada em 2010 por Ágatha Duarte da Silva. 2015 foi seu melhor ano, quando organizaram o show da virada (de 2014 para 2015) para a cidade de Floripa.</p>
+        </section>
+
+        <section id="Contato">
+            <h3 class="contato">Contato</h3>
+            <p class="p">Agende seus eventos via WhatsApp (48) 99999-9999</p>
+        </section>
+
+        <footer class="footer">
+            <a>Criado por Duarte events</a>
+        </footer>
+    </main>
+</body>
+</html>

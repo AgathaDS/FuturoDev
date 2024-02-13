@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --Vermelho: #3b0057;
+    --Verde: #7310b4;
+    --branco: #faf8f8;
+  }
+
+
+  .header {
+  display: flex; 
+  justify-content: space-around;
+  background-color: #3b0057;
+  }
+  
+  .header a {
+    color: var(--branco);
+    padding: 0 1em;
+    font-size:2em ;
+  }
+  
+ 

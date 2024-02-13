@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeTravel</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            text-decoration: none;
+            scroll-behavior: smooth;
+        }
+
+        .img {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .img div {
+            width: 200px;
+            margin: 10px;
+            text-align: center;
+        }
+
+        .img img {
+            width: 100%;
+            height: auto;
+        }
+
+        .img p {
+            margin: 5px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        th {
+            background-color: #bec5be;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#Início">Início</a>
+            <a href="#Sobre-nós">Sobre nós</a>
+            <a href="#Planos">Planos</a>
+            <a href="#Perguntas">Perguntas</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="Início">
+            <h1>SafeTravel</h1>
+            <h2>Viagens seguras pelo mundo.</h2>
+        </section>
+
+        <section class="img">
+            <div>
+                <img src="img/melhor-seguro-viagem-capa2019-03.jpg" alt="Melhor seguro viagem">
+                <p>SafeTravel: O jeito mais seguro de viajar.</p>
+            </div> 
+
+            <div>
+                <img src="img/photo medico.jpeg" alt="Foto de um medico">
+                <p>Tornamos a sua viagem muito mais segura com serviços de hospitais, ambulâncias, remoção inter-hospitalar, assistência médica.</p>
+            </div>
+
+            <div> 
+                <img src="img/hd.png" alt="Hoemem com dinheiro">
+                <p>Caso ocorra extravio, você recebe uma indenização em dinheiro.</p>
+            </div>
+
+            <div>
+                <img src="img/Screenshot 2024-01-16 150659.png" alt="Sala de espera">
+                <p>Para problemas durante a viagem, como cancelamentos ou interrupções, estamos aqui para ajudar.</p>
+            </div>
+        </section>
+
+            <section id="Sobre-nós">
+                <h1>Sobre-nós</h1>
+                <h2>Na SafeTravel, oferecemos seguros de viagem adaptados às suas necessidades, garantindo tranquilidade durante cada aventura. Com cobertura abrangente, assistência 24/7 e parcerias globais, estamos aqui para proteger seus momentos inesquecíveis. Viaje com confiança, viaje com SafeTravel.</h2>
+            </section>
+       
+            <section id="Planos">
+                <h2>Planos</h2>
+                
+                <table>
+                    <tr>
+                        <td>Plano</td>
+                        <td>Descrição</td>
+                        <td>Preço</td>
+                    </tr>
+                    <tr>
+                        <td>Silver</td>
+                        <td>Assistência médica, remoção inter-hospitalar, hospital e ambulância</td>
+                        <td>200</td>
+                    </tr>
+                    <tr>
+                    <td>Gold</td>
+                        <td>Indenização em caso de extravio, assistência médica</td>
+                        <td>500</td>
+                    </tr>
+
+                    <tr>
+                        <td>Diamond</td>
+                        <td>Assistência para problemas durante a viagem, cancelamentos ou interrupções, Assistência médica e Indenização em caso de extravio</td>
+                        <td>800</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section id="Perguntas">
+            <h1>Perguntas</h1>
+            <form action="#" method="post">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="SeuEmail@gmail.com" required>
+                
+                <label for="pergunta">Pergunta:</label>
+                <textarea id="pergunta" name="pergunta" placeholder="Digite sua pergunta"></textarea>
+
+                <input type="submit" value="Enviar Pergunta">
+                <input type="reset" value="Limpar">
+              </form>
+            </section>
+            </section>
+            
+            <footer>
+                <p><a href="https://github.com" target="_blank">Ágatha Duarte da Silva</a> &copy; 2024</p>
+            </footer>
+    </main>
+</body>
+</html>
